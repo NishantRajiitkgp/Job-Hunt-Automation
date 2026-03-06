@@ -1,0 +1,53 @@
+NISHANT RAJ
++91 9709294505 | nishant2004@kgpian.iitkgp.ac.in | LinkedIn | GitHub | IIT Kharagpur, India
+
+EDUCATION
+Year Degree / Exam Institution CGPA / Marks
+2022–2026 Physics (4-Year) Indian Institute of Technology Kharagpur 8.6 / 10
+2022 Class XII – CBSE Guru Gobind Singh Public School 86.6%
+2020 Class X – CBSE DAV Public School 96.6%
+
+INTERNSHIP EXPERIENCE
+
+Full Stack Developer Intern · MindGuruYoga (MGY) · Remote, Canada Sep 2025 – Nov 2025
+• Developed full-stack life-intelligence platform (Next.js 15, React 19, TypeScript, Tailwind CSS) with 40% faster page load via SSR + lazy loading; scaled PostgreSQL/Supabase backend for sub-200 ms refresh on 28 real-time metrics.
+• Architected multi-domain conversational AI system (Career · Health · Love · Money) with context-aware session storage, JWT-protected RESTful API routes, and role-based access control in TypeScript.
+• Automated monthly/yearly report-generation pipeline via server-side data aggregation, eliminating 100% of manual reporting effort and enabling structured long-term progress-tracking for users.
+• Configured NextAuth.js / JWT auth with protected API routes; deployed on GCP with CI/CD, reducing release cycle time by ~50%; maintained modular full-stack architecture across 100+ frontend components.
+
+Software Development Engineer Intern · TasklyApp.ai · Remote, Canada May 2025 – July 2025
+• Built AI-powered SaaS backend (Node.js 11, TypeScript, MongoDB, Redis) orchestrating Groq LLaMA, Google Gemini, Tavily & SerpAPI; cut job-analysis latency ~60% via multi-layer LRU + Redis caching (10,000 entries, 1-hr TTL).
+• Designed fault-tolerant microservices architecture with circuit-breaker, request-deduplication and retry logic across 8+ Node.js modules, sustaining 99.9% uptime under concurrent production load.
+• Enforced enterprise auth: JWT (access + refresh) + Google OAuth 2.0 (Passport.js), Redis-backed distributed rate-limiting, JSON sanitisation, and OWASP headers (HSTS, X-Frame, XSS-Protection).
+• Containerised frontend + backend with Docker multi-stage builds + GitHub Actions CI/CD; authored full Swagger/OpenAPI 3.0 docs; deployed on GCP Cloud Run with health checks and graceful shutdown.
+
+PROJECTS
+
+Real-Time Sports Dashboard (GitHub) | Node.js · Express 5 · PostgreSQL · WebSockets · Next.js 16 Oct 2025 – Nov 2025
+• Eliminated HTTP polling via WebSocket pub/sub server (ws v8) with in-memory Map<matchId,Set<WebSocket>>; delivered live scores & commentary in <100 ms latency with ping/pong heartbeat and automatic dead-connection cleanup.
+• Engineered exponential-backoff reconnection with subscription restoration and hybrid data strategy (REST + WS push + 5-s poll fallback) for zero data loss; secured all paths via Arcjet rate-limiting, bot detection, and shield.
+• Validated all inputs with Zod v4 schemas; managed migrations with Drizzle ORM + Drizzle Kit; modelled 10 WebSocket message types as TypeScript discriminated unions for full end-to-end type safety.
+
+Flood Detection Platform — IIT Kharagpur | Next.js · Node.js · Python · FastAPI · PostgreSQL · AWS S3 · Docker Aug 2025 – Nov 2025
+• Built a full-stack flood detection platform under Prof. Bhabagrahi Sahoo (IIT KGP) with a Next.js dashboard + FastAPI backend; RESTful APIs for satellite image upload, and real-time flood-map retrieval; cut analysis time from hours to seconds.
+• Engineered Dockerized Python/OpenCV + GDAL microservice for pixel-level flood classification on GeoTIFF imagery via adaptive thresholding; GIS-compatible overlay maps stored on AWS S3, metadata indexed in PostgreSQL.
+• Implemented interactive Leaflet.js map dashboard with JWT auth rendering flood overlays on real Odisha imagery; full pipeline deployed on GCP via Docker for disaster management and hydrological research.
+
+AI Stock Market Platform (GitHub) | Next.js 16 · React 19 · TypeScript · MongoDB · Inngest · Gemini AI · Finnhub Dec 2024 – Jan 2025
+• Architected production-grade financial platform with 10+ TradingView widgets (heatmap, candlestick, technical analysis); Finnhub API with ISR caching (5 min–1 hr TTL) reduced API calls by ~70%.
+• Automated AI news digests via Inngest cron + Gemini 2.5 Flash Lite generating per-user personalized HTML emails daily at 12:00 UTC with zero manual intervention; built 56 KB+ responsive dark-theme templates via Nodemailer SMTP.
+• Built session-based auth (Better Auth) with Next.js middleware route protection; MongoDB compound index (userId+symbol) prevents duplicates; React 19 Server Components + Server Actions minimise client JS bundle.
+
+TECHNICAL SKILLS
+Languages: C++ | TypeScript | JavaScript | Python | C | SQL | HTML | CSS
+Frontend: React 19 | Next.js 16 | Tailwind CSS 4 | Radix UI | WebSockets | WebRTC | REST APIs
+Backend: Node.js | Express 5 | NestJS 11 | FastAPI | BunJS | Queues / PubSub | Microservices | GraphQL
+Databases: MongoDB | PostgreSQL | Redis | Drizzle ORM | Mongoose | Prisma | Supabase
+DevOps: Docker | Kubernetes | GitHub Actions CI/CD | GCP | AWS | AWS S3 | Linux | Nginx | Terraform (IaC) | CDN
+Tools: Git | GitHub | Figma | VS Code | Leaflet.js | Jupyter Notebook | Swagger/OpenAPI | Postman
+CS Fundamentals: Data Structures & Algorithms (700+ problems) | OOP | System Design | DBMS | Computer Networks
+
+RELEVANT COURSEWORK
+Programming & CS: Programming & Data Structures · Algorithms · Machine Learning · Computational Physics
+Mathematics: Probability & Statistics · Linear Algebra · Numerical Analysis · Advanced Calculus
+Engineering: Electrical Technology (Theory + Lab) · Basic Electronics (Theory + Lab)
